@@ -25,6 +25,7 @@ button, a {
          margin: 10px; */
          background-color: rgba(252,214,21,0.45);
          color: rgb(101,67,33);
+         width: 30%;
        }
 
 #hero {
