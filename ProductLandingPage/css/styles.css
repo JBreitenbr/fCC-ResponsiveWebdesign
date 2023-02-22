@@ -21,8 +21,6 @@ h1, h2, h3 {
    }
 
 button, a { 
-        /* padding: 10px;
-         margin: 10px; */
          background-color: rgba(252,214,21,0.45);
          color: rgb(101,67,33);
        }
@@ -67,8 +65,6 @@ color: rgb(101,67,33);
         margin: 60px;
      }
 
-li {border: 2px solid rgb(101,67,33); }
-
 .gallery img {
                width: min(350px,100%);
                max-width: 400px;
@@ -91,7 +87,8 @@ ul {
 li {
     display: block;
     list-style-type: none;
-    background: rgba(229,178,86,0.7);
+    border: 2px solid rgb(101,67,33);
+    border-radius: 3px;
     color: rgb(101, 67, 33);
 }
 
